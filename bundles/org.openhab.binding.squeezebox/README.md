@@ -120,6 +120,8 @@ All devices support some of the following channels:
 | playFavorite            | String    | ID of Favorite to play (channel's state options contains available favorites)          |
 | rate                    | Switch    | "Like" or "unlike" the currently playing song (if supported by the streaming service)  |
 | sleep                   | Number    | Power off the player in the specified number of minutes. Sending 0 cancels the timer   |
+| alarms                  | String    | Get count of existing alarms, master enable and fade option                            |
+| alarm                   | String    | Get individual alarms id, dow, enabled, repeat, time, volume and url/playlist          |
 
 ## Example .Items File
 
